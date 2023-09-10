@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Color Flipper</title>
+</head>
+<body>
+    <header class="text-center bg-slate-400 py-4 mb-28 font-bold">Match Colors</header>
+    <p id="status"></p>
+    <main class="text-center flex flex-col justify-center align-middle ">
+        <div class="flex flex-col mx-auto  gap-12">
+            
+            <div id="b1" class="p-8 rounded-md">
+                box 1
+                <h1>Background Color: <span id="color1"></span></h1>
+            </div>
+            <div id="b2"  class="p-8 rounded-md">
+                box 2
+                <h1>Background Color: <span id="color2"></span></h1>
+            </div>
+            <button id="btn" class="flex text-center  bg-blue-500 w-min p-4 shadow-2xl focus-within:bg-blue-400 focus:shadow-xl rounded-lg ml-16">Change</button>
+        </div>
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
